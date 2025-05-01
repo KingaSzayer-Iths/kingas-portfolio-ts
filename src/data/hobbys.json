@@ -1,0 +1,59 @@
+[
+    {
+        "name":"Dice",
+        "shortDescription":"React",
+        "longDescription":"Rulla tills alla tärningar är likadana. Klicka på varje tärning för att frysa den till dess nuvarande värde mellan kasten. Försök slå ditt eget rekord och förbättra dina resultat varje gång! Lycka till och ha kul med spelet!",
+        "images": [
+            "./images/dice-game.webp",
+            "./images/dice-start-game .webp"
+        ],
+        "mainImage": "./images/dice-game.webp",
+        "github": "https://github.com/KingaSzayer-Iths/e-wallet",
+        "netlify": "https://main--wonderful-melomakarona-c986c8.netlify.app",
+        "technics"  : [
+            "react"
+        ]
+    },
+    {
+        "name":"Mole",
+        "shortDescription":"React",
+        "longDescription":"Slå så många mullvadar (min familj) ;) du kan inom 30 sekunder. Tjäna extra tid genom att slå hårda mullvadar. Vissa mullvadar ger dig extra poäng.",
+        "images": [
+            "./images/wackamole-game.webp"
+        ],
+        "mainImage": "./wackamole-game.webp",
+        "github": "https://github.com/KingaSzayer-Iths/e-wallet",
+        "netlify": "https://lively-griffin-3e62f3.netlify.app"
+    },
+    {
+        "name":"Tidigare portfolio",
+        "shortDescription":"GraphQL",
+        "longDescription":"Min tidigare porfolio, skapad med React och Gatsby där jag integrerade Contentful för dynamiskt innehållshantering och använde GraphQL för effektiva dataförfrågningar. Designen är kodad i HTML och CSS för att ge en stillren och användarvänlig upplevelse.",
+        "images": [
+            "./images/portfolio_homepage1_old.webp",
+            "./images/portfolio_homepage2_old.webp",
+            "./images/portfolio_om_mig_old.webp",
+            "./images/portfolio_utbildning_old.webp",
+            "./images/projektoversikt_old.webp",
+            "./images/figma-styleguide1.webp",
+            "./images/figma-komponenter.webp",
+            "./images/figma-webshop-oversikt.webp",
+            "./images/js-starwars-startpage.webp",
+            "./images/js-starwars-loadingpage.webp",
+            "./images/js-starwars-detaljpage.webp",
+            "./images/react-recipe-startpage.webp",
+            "./images/react-recipe-kategori.webp",
+            "./images/react-recipe-receptkort.webp",
+            "./images/umbraco-dogrunner-pages.webp",
+            "./images/vue-ewallet-oversikt.webp",
+            "./images/wordpress-hero-page.webp",
+            "./images/wordpress-blogg-links.webp",
+            "./images/portfolio_old_kontaktsida.webp",
+            "./images/old_portfolio_oversikt.webp"
+        ],
+        "mainImage": "./images/portfolio_old_homepage.webp",
+        "github": "https://github.com/KingaSzayer-Iths/e-wallet"
+
+    }
+
+]

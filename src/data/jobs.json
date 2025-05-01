@@ -1,0 +1,44 @@
+[
+    {
+        "companyName": "Willy:s",
+        "jobTitle": "Butiksbiträde",
+        "jobDescription": "Butiksverksamhet: detaljhandel, Sektorn: kundkontakter och service, Specialområden: kassa hantering, försäljning, beställning, leverans, rapportering, inventering.",
+        "startDatum": "Startdatum: maj 2009",
+        "slutDatum": "Slutdatum: juni 2024"
+    },
+    {
+        "companyName": "Reglertekniska Ingenjörsbyrån AB (RIB)",
+        "jobTitle": "Chefsassistent",
+        "jobDescription": "Ingenjörsverksamhet, Utbildningssektorn: industriutbildningar, sammanställning av utbildningsmaterial, planering och sammarbete med andra företag samt bokslut och administration.",
+        "startDatum": "Startdatum: okt 2005",
+        "slutDatum": "Slutdatum: maj 2009"
+    },
+    {
+        "companyName": "Restaurang Jimmys Steakhouse",
+        "jobTitle": "Event Specialist",
+        "jobDescription": "Restaurangverksamhet: service, Sektorn: events planering.",
+        "startDatum": "Startdatum: sep 2004",
+        "slutDatum": "Slutdatum: okt 2005"
+    },
+    {
+        "companyName": "Restaurang Alfredos",
+        "jobTitle": "Medarbetare",
+        "jobDescription": "Restaurangverksamhet, Sektorn: service.",
+        "startDatum": "Startdatum: juni 2001",
+        "slutDatum": "Slutdatum: nov 2004"
+    },
+    {
+        "companyName": "Restaurang Gastons",
+        "jobTitle": "Event Manager",
+        "jobDescription": "Restaurangverksamhet, Sektorn: entrévärd, events organisatör.",
+        "startDatum": "Startdatum: jan 1999",
+        "slutDatum": "Slutdatum: juli 2001"
+    },
+    {
+        "companyName": "Skandia Försäkringar",
+        "jobTitle": "Finansiell rådgivare",
+        "jobDescription": "Försäkringsverksamhet, Specialområden: generell och personlig finansiell rådgivning.",
+        "startDatum": "Startdatum: maj 1997",
+        "slutDatum": "Slutdatum: jan 1999"
+    }
+]

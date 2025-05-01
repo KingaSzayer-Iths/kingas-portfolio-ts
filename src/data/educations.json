@@ -1,0 +1,20 @@
+[
+    {
+        "intitutionName": "Stockholm Universitet",
+        "program": "Data och systemvetenskap, 4 år",
+        "startDatum": "Startdatum: 2012-08-19",
+        "slutDatum": "Slutdatum: 2016-06-02"
+    },
+    {
+        "intitutionName": "Stockholm Universitet",
+        "program": "Pedagogik, 2 år",
+        "startDatum": "Startdatum: 2018-08-19",
+        "slutDatum": "Slutdatum: 2020-05-28"
+    },
+    {
+        "intitutionName": "IT-Högskolan",
+        "program": "Frontend-utvecklare, 2år",
+        "startDatum": "Startdatum: 2021-08-22",
+        "slutDatum": "Slutdatum: 2023-06-08"
+    }
+]
