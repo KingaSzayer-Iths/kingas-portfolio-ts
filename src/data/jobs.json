@@ -4,7 +4,7 @@
         "jobTitle": "Butiksbiträde",
         "jobDescription": "Butiksverksamhet: detaljhandel, Sektorn: kundkontakter och service, Specialområden: kassa hantering, försäljning, beställning, leverans, rapportering, inventering.",
         "startDatum": "Startdatum: maj 2009",
-        "slutDatum": "Slutdatum: juni 2024"
+        "slutDatum": "Slutdatum: juli 2008"
     },
     {
         "companyName": "Reglertekniska Ingenjörsbyrån AB (RIB)",
@@ -25,14 +25,14 @@
         "jobTitle": "Medarbetare",
         "jobDescription": "Restaurangverksamhet, Sektorn: service.",
         "startDatum": "Startdatum: juni 2001",
-        "slutDatum": "Slutdatum: nov 2004"
+        "slutDatum": "Slutdatum: sep 2004"
     },
     {
         "companyName": "Restaurang Gastons",
         "jobTitle": "Event Manager",
         "jobDescription": "Restaurangverksamhet, Sektorn: entrévärd, events organisatör.",
         "startDatum": "Startdatum: jan 1999",
-        "slutDatum": "Slutdatum: juli 2001"
+        "slutDatum": "Slutdatum: juni 2001"
     },
     {
         "companyName": "Skandia Försäkringar",
@@ -40,5 +40,12 @@
         "jobDescription": "Försäkringsverksamhet, Specialområden: generell och personlig finansiell rådgivning.",
         "startDatum": "Startdatum: maj 1997",
         "slutDatum": "Slutdatum: jan 1999"
+    },
+    {
+        "companyName": "H&M",
+        "jobTitle": "Frontend-utvecklare",
+        "jobDescription": "Sektorn: IT-Handel",
+        "startDatum": "Startdatum: sep 2024",
+        "slutDatum": ""
     }
 ]

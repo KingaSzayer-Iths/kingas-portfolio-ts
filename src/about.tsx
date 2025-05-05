@@ -2,6 +2,17 @@ import React from 'react'
 import educations from './data/educations.json'
 import jobs from './data/jobs.json'
 
+
+
+const formatDate = (dateStr: string) => {
+  if (!dateStr) return "Pågår";
+  return new Date(dateStr).toLocaleDateString("sv-SE", {
+    year: "numeric",
+    month: "short",
+  });
+};
+
+
 function About() {
   return <>
   <main>
@@ -20,27 +31,53 @@ function About() {
     </p>
     
 
-    <section className="edu">
+    {/* <section className="edu">
 {educations.map(education =>
                   <article key={education.program}>
-                    <h2>{education.intitutionName}</h2>
+                    <h2>{education.institutionName}</h2>
                     <h3>{education.program}</h3>
                     <h6>{education.startDatum}</h6>
                     <h6>{education.slutDatum}</h6>
                   </article> 
-                  )}
-    </section>
+                  ).sort((a: any, b: any) => parseInt(a.stopYear) - parseInt(b.stopYear))}
+    </section> */}
 
-    <section  className="job">
-{jobs.map(job => <article key={job.companyName}>
-                    <h2>{job.companyName}</h2>
-                    <h3>{job.jobTitle}</h3>
-                    <h4>{job.jobDescription}</h4>
-                    <h6>{job.startDatum}</h6>
-                    <h6>{job.slutDatum}</h6>
-                  </article> 
-                  )}
-    </section>
+
+<section className="edu">
+  {[...educations]
+    .sort(
+      (a, b) =>
+        new Date(b.slutDatum || Date.now()).getTime() -
+        new Date(a.slutDatum || Date.now()).getTime()
+    )
+    .map((education) => (
+      <article key={education.program}>
+        <h2>{education.institutionName}</h2>
+        <h3>{education.program}</h3>
+        <h6>Start: {formatDate(education.startDatum)}</h6>
+        <h6>Slut: {formatDate(education.slutDatum)}</h6>
+      </article>
+    ))}
+</section>
+
+<section className="job">
+  {[...jobs]
+    .sort(
+      (a, b) =>
+        new Date(b.slutDatum || Date.now()).getTime() -
+        new Date(a.slutDatum || Date.now()).getTime()
+    )
+    .map((job) => (
+      <article key={job.companyName}>
+        <h2>{job.companyName}</h2>
+        <h3>{job.jobTitle}</h3>
+        <h4>{job.jobDescription}</h4>
+        <h6>Start: {formatDate(job.startDatum)}</h6>
+        <h6>Slut: {formatDate(job.slutDatum)}</h6>
+      </article>
+    ))}
+</section>
+
 </div>
 </main>
   </>

@@ -6,7 +6,7 @@ import phone from './icons/phone.png'
 import maps from './icons/maps.png'
 import linkedin from './icons/linkedin.png'
 import github from './icons/github.png'
-import homePagePrestanda from './images/prestanda98_met96_tillgSEO100.webp'
+// import homePagePrestanda from './images/prestanda98_met96_tillgSEO100.webp'
 import omMigPagePrestanda from './images/omMigSida_prestTillg98_met96_SEO100.png'
 import projectPageprestanda from './images/ProjectPage-prestMet96_tillg95_SEO100.png'
 import hobbysPagePrestanda from './images/hobbys-prestTillg95_met93_SEO100.png'
@@ -31,6 +31,16 @@ function Contact() {
   
 
   return <>
+  
+  <div className="line0">
+    </div>
+  <div className="line1">
+    </div>
+  <div className="line2">
+    </div>
+  <div className="line3">
+    </div>
+
     <div className="contact-me">
     <div className="contact-header">
     <h1>Kontakta mig</h1>
@@ -38,7 +48,10 @@ function Contact() {
     {/* <div className="contact"> */}
     <section className="contact-container">
     <article className="contact-image-flex">
+      
+
     <div className="image-top">
+      
     <img width="180px" src={bild} alt="Bild2 på mig" />
     </div>
     </article>
@@ -78,6 +91,15 @@ function Contact() {
     </div>
     {/* </div> */}
     
+    <div className="line3">
+    </div>
+    <div className="line2">
+    </div>
+    <div className="line1">
+    </div>
+    <div className="line4">
+    </div>
+
 <article>
     {/* <div className="images-basic">
       <div>
@@ -101,6 +123,7 @@ function Contact() {
     {/* <div>
         <img src={homePagePrestanda} alt="Bild på prestanda hem sida" />
       </div> */}
+     
       <div>
         <img src={omMigPagePrestanda} alt="Bild på prestanda om mig sida" />
       </div>
