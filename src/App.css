@@ -1752,6 +1752,9 @@ body {
   .sliding-word span {
     font-size: 25px;
   }
+  .sliding-text-p {
+    width: 100%;
+  }
 
   .skill-group {
     gap: 15px;
@@ -2358,7 +2361,7 @@ body {
   .contact-header {
     margin-top: 1rem;
   }
-  
+
   .contact-header h1 {
     font-weight: 600;
     font-size: 28px;

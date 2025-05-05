@@ -54,7 +54,7 @@ function Home() {
     </h2>
   </div>
   <div className=" sliding-text">
-    <p>Jag är en frontend-utvecklare med en passion för att skapa moderna, stillrena och användarvänliga webbaplikationer. Jag lär mig snabbt och är ständigt nyfiken på att bredda mina kunskaper och färdigheter. Mitt mål är att bidra med kreativitet och teknisk expertis till ett team för att skapa välgjorda och innovativa lösningar.</p>
+    <p style={{width:"100%"}}>Jag är en frontend-utvecklare med en passion för att skapa moderna, stillrena och användarvänliga webbaplikationer. Jag lär mig snabbt och är ständigt nyfiken på att bredda mina kunskaper och färdigheter. Mitt mål är att bidra med kreativitet och teknisk expertis till ett team för att skapa välgjorda och innovativa lösningar.</p>
   </div> 
 
   </div>

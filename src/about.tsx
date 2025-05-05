@@ -10,7 +10,7 @@ const formatDate = (dateStr: string) => {
     year: "numeric",
     month: "short",
   });
-};
+}
 
 
 function About() {
