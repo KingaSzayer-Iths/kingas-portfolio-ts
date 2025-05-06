@@ -10,15 +10,15 @@
         "companyName": "Reglertekniska Ingenjörsbyrån AB (RIB)",
         "jobTitle": "Chefsassistent",
         "jobDescription": "Ingenjörsverksamhet, Utbildningssektorn: industriutbildningar, sammanställning av utbildningsmaterial, planering och sammarbete med andra företag samt bokslut och administration.",
-        "startDatum": "okt 2005T00:00:00",
-        "slutDatum": "maj 2009T00:00:00"
+        "startDatum": "2005-10-17T00:00:00",
+        "slutDatum": "2009-05-08T00:00:00"
     },
     {
         "companyName": "Restaurang Jimmys Steakhouse",
         "jobTitle": "Event Specialist",
         "jobDescription": "Restaurangverksamhet: service, Sektorn: events planering.",
-        "startDatum": "sep 2004T00:00:00",
-        "slutDatum": "okt 2005T00:00:00"
+        "startDatum": "2004-09-16T00:00:00",
+        "slutDatum": "2005-10-18T00:00:00"
     },
     {
         "companyName": "Restaurang Alfredos",
@@ -31,21 +31,21 @@
         "companyName": "Restaurang Gastons",
         "jobTitle": "Event Manager",
         "jobDescription": "Restaurangverksamhet, Sektorn: entrévärd, events organisatör.",
-        "startDatum": "Startdatum: jan 1999",
-        "slutDatum": "Slutdatum: juni 2001"
+        "startDatum": "1999-01-07T00:00:00",
+        "slutDatum": "2001-06-20T00:00:00"
     },
     {
         "companyName": "Skandia Försäkringar",
         "jobTitle": "Finansiell rådgivare",
         "jobDescription": "Försäkringsverksamhet, Specialområden: generell och personlig finansiell rådgivning.",
-        "startDatum": "Startdatum: maj 1997",
-        "slutDatum": "Slutdatum: jan 1999"
+        "startDatum": "1997-05-12T00:00:00",
+        "slutDatum": "1999-01-20T00:00:00"
     },
     {
         "companyName": "H&M",
         "jobTitle": "Frontend-utvecklare",
         "jobDescription": "Sektorn: IT-Handel",
-        "startDatum": "Startdatum: sep 2024",
+        "startDatum": "2024-09-05T00:00:00",
         "slutDatum": ""
     }
 ]
