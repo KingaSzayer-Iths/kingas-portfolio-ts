@@ -3,22 +3,22 @@
         "companyName": "Willy:s",
         "jobTitle": "Butiksbiträde",
         "jobDescription": "Butiksverksamhet: detaljhandel, Sektorn: kundkontakter och service, Specialområden: kassa hantering, försäljning, beställning, leverans, rapportering, inventering.",
-        "startDatum": "Startdatum: maj 2009",
-        "slutDatum": "Slutdatum: juli 2024"
+        "startDatum": "maj 2009T00:00:00",
+        "slutDatum": "juli 2024T00:00:00"
     },
     {
         "companyName": "Reglertekniska Ingenjörsbyrån AB (RIB)",
         "jobTitle": "Chefsassistent",
         "jobDescription": "Ingenjörsverksamhet, Utbildningssektorn: industriutbildningar, sammanställning av utbildningsmaterial, planering och sammarbete med andra företag samt bokslut och administration.",
-        "startDatum": "Startdatum: okt 2005",
-        "slutDatum": "Slutdatum: maj 2009"
+        "startDatum": "okt 2005T00:00:00",
+        "slutDatum": "maj 2009T00:00:00"
     },
     {
         "companyName": "Restaurang Jimmys Steakhouse",
         "jobTitle": "Event Specialist",
         "jobDescription": "Restaurangverksamhet: service, Sektorn: events planering.",
-        "startDatum": "Startdatum: sep 2004",
-        "slutDatum": "Slutdatum: okt 2005"
+        "startDatum": "sep 2004T00:00:00",
+        "slutDatum": "okt 2005T00:00:00"
     },
     {
         "companyName": "Restaurang Alfredos",

@@ -3,25 +3,25 @@
     {
         "institutionName": "Stockholm Universitet",
         "program": "Pedagogik, 2 år",
-        "startDatum": "Startdatum: 2018-08-19T00:00:00",
-        "slutDatum": "Slutdatum: 2020-05-28T00:00:00"
+        "startDatum": "2018-08-19T00:00:00",
+        "slutDatum": "2020-05-28T00:00:00"
     },
     {
         "institutionName": "Stockholm Universitet",
         "program": "Data och systemvetenskap, 4 år",
-        "startDatum": "Startdatum: 2012-08-19T00:00:00",
-        "slutDatum": "Slutdatum: 2016-06-02T00:00:00"
+        "startDatum": "2012-08-19T00:00:00",
+        "slutDatum": "2016-06-02T00:00:00"
     },
     {
         "institutionName": "IT-Högskolan",
         "program": "Frontend-utvecklare, 2år",
-        "startDatum": "Startdatum: 2021-08-22T00:00:00",
-        "slutDatum": "Slutdatum: 2023-06-08T00:00:00"
+        "startDatum": "2021-08-22T00:00:00",
+        "slutDatum": "2023-06-08T00:00:00"
     },
     {
         "institutionName": "Malmö Universitet",
         "program": "Webbutveckling || ",
-        "startDatum": "Startdatum: 2025-09-13T00:00:00",
+        "startDatum": "2025-09-13T00:00:00",
         "slutDatum": ""
     }
 ]
