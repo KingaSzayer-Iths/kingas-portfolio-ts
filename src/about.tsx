@@ -4,14 +4,28 @@ import jobs from './data/jobs.json'
 
 
 
-const formatDate = (dateStr: string) => {
+// const formatDate = (dateStr: string) => {
+//   if (!dateStr) return "Pågår";
+//   return new Date(dateStr).toLocaleDateString("sv-SE", {
+//     year: "numeric",
+//     month: "short",
+//   });
+// };
+
+const formatDate = (dateStr?: string) => {
   if (!dateStr) return "Pågår";
-  return new Date(dateStr).toLocaleDateString("sv-SE", {
+
+  // Lägg till T00:00:00 om det inte redan finns
+  const safeDate = dateStr.includes("T") ? dateStr : `${dateStr}T00:00:00`;
+
+  const date = new Date(safeDate);
+  if (isNaN(date.getTime())) return "Ogiltigt datum";
+
+  return date.toLocaleDateString("sv-SE", {
     year: "numeric",
     month: "short",
   });
 };
-
 
 function About() {
   return <>
