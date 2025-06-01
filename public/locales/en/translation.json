@@ -1,0 +1,234 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About me",
+        "projects": "Projects",
+        "hobbies": "Hobby",
+        "contact": "Contact"
+    },
+    "home": {
+        "intro": "I’m a frontend developer with a passion for creating modern, clean and user-friendly web applications. I’m a fast learner and always curious to expand my skills and knowledge. My goal is to contribute with creativity and technical expertise to a team to build high-quality and innovative solutions.",
+        "skillstitle": "My experiences",
+        "frontendTitle": "Frontend-Developer"
+    },
+    "about": {
+            "header": "My <span>Background</span>: <span>Education</span> and <span>Experience</span>",
+            "p1": "I have a background in systems science and in recent years I’ve taken the next step in my career by training as a frontend developer at IT-Högskolan. I look forward to bringing that into working life where I can contribute to exciting projects that combine technology with creativity.",
+            "p2": "My goal is to work in an environment where I can nurture both my love for functionality and my interest in color and design. My time at IT-Högskolan has been a rewarding and inspiring journey where through projects I’ve deepened my knowledge in frontend development. That experience has strengthened my conviction that this is what I want to do and I look forward to growing further and becoming a better developer each day.",
+            "p3": "Outside of work my creativity and curiosity come to life through several passions. I love cooking and enjoy experimenting with new recipes and my interest in interior design has helped me create a peaceful and inspiring home. As an animal lover I’ve also built an active community for dog owners with over 190 members where we organize group walks and share experiences.",
+    
+        "edu": {
+            "start": "Start",
+            "end": "End"
+    },
+        "job": {
+            "start": "Start",
+            "end": "End"
+    }
+    },
+
+    "educationTranslations": {
+        "iths": {
+            "institutionName": "IT University",
+            "program": "Frontend Developer, 2 years"
+        },
+        "dsv": {
+            "institutionName": "Stockholm University / DSV",
+            "program": "Computer and Systems Sciences, 4 years"
+        },
+        "pedagogik": {
+            "institutionName": "Stockholm University",
+            "program": "Pedagogy, 2 years"
+        },
+        "malmo": {
+            "institutionName": "Malmö University",
+            "program": "Web Development"
+    }
+    },
+
+    "jobTranslations": {
+        "willys": {
+            "companyName": "Willy:s",
+            "jobTitle": "Store Assistant",
+            "jobDescription": "Retail operations: customer contact and service. Specialties: cash register handling, sales, ordering, delivery, reporting, inventory."
+        },
+        "rib": {
+            "companyName": "Reglertekniska Ingenjörsbyrån AB (RIB)",
+            "jobTitle": "Executive Assistant",
+            "jobDescription": "Engineering services. Education sector: industrial training, assembling training materials, planning, company collaboration, bookkeeping and administration."
+        },
+        "jimmys": {
+            "companyName": "Restaurant Jimmys Steakhouse",
+            "jobTitle": "Event Specialist",
+            "jobDescription": "Restaurant operations: service. Sector: event planning."
+        },
+        "alfredos": {
+            "companyName": "Restaurant Alfredos",
+            "jobTitle": "Staff Member",
+            "jobDescription": "Restaurant operations. Sector: service manager."
+        },
+        "gastons": {
+            "companyName": "Restaurant Gastons",
+            "jobTitle": "Event Manager",
+            "jobDescription": "Restaurant operations. Sector: hosting and events organizer."
+        },
+        "skandia": {
+            "companyName": "Skandia Försäkringar",
+            "jobTitle": "Financial Advisor",
+            "jobDescription": "Insurance business. Specialties: general and personal financial advising."
+        },
+        "hm": {
+            "companyName": "H&M",
+            "jobTitle": "Frontend Developer",
+            "jobDescription": "Sector: IT & E-commerce."
+        }
+    },
+
+    "projects": {
+        "header": "My Projects",
+        "categories": {
+            "figma": "Figma",
+            "react": "React",
+            "vue": "Vue",
+            "javascript": "JavaScript",
+            "umbraco": "Umbraco",
+            "wordpress": "WordPress"
+        },
+        "links": {
+            "viewMore": "View more",
+            "github": "GitHub",
+            "play": "Play now"
+        }
+    },
+
+    "projectTranslations": {
+        "figma": {
+            "shortDescription": "Figma - Sinus Webshop",
+            "longDescription": "A Figma-based frontend webshop project featuring a comprehensive style guide, a reusable component library, and a project overview. The design provides a clear visual direction and consistency, while enabling efficient collaboration and rapid development.",
+            "description": "This Figma project showcases the design for a webshop, emphasizing a visual style guide, component library, and clear structure. With reusable elements and a consistent layout, it provides a strong foundation for frontend development."
+        },
+        "react": {
+            "shortDescription": "React - Recipe",
+            "longDescription": "A recipe project built in React, where users can browse categories on the homepage, select a specific one to filter recipes, and view details in a dedicated recipe card. The backend uses a MongoDB database running in Docker for efficient, scalable data storage. An intuitive experience for discovering favorite recipes.",
+            "description": "Users can select a category, view all recipes in that category, and see individual recipe details. Modern layout and intuitive navigation."
+        },
+        "vue": {
+            "shortDescription": "Vue - E-wallet",
+            "longDescription": "An e-wallet project built in Vue, allowing users to enter their details on the homepage, add new cards, and get an overview of all created cards. A simple and user-friendly solution for managing cards and payment info digitally.",
+            "description": "Users can create an account, add cards, and view all added cards in a responsive layout. Designed and developed with Vue."
+        },
+        "javascript": {
+            "shortDescription": "Native JavaScript - Star Wars Catalog",
+            "longDescription": "A Star Wars catalog project built with native JavaScript, where users can browse characters and select one to view detailed info. A dynamic and engaging way to explore the Star Wars universe.",
+            "description": "This project displays a character catalog where users can click a name to see details. Built with vanilla JavaScript and the Star Wars API."
+        },
+        "umbraco": {
+            "shortDescription": "Umbraco - Running dogs",
+            "longDescription": "A dog training booking system built in Umbraco for a real business, 'Running dogs'. Users can read about the company and its training services, fill in their dog’s details, and search for available dog runners in their area. The platform also supports finding specific trainers and booking sessions directly in their calendars.",
+            "description": "Users can search for dog trainers by area, see available slots in a calendar, enter dog details, and book sessions. Built in Umbraco CMS."
+       },
+        "wordpress": {
+            "shortDescription": "WordPress - Polish Desserts",
+            "longDescription": "A dessert blog built in WordPress, featuring a welcoming hero page, a blog section with sidebar links for categories, archives, and a search function. The backend is developed in PHP to handle dynamic content and database interaction. It also includes a contact page for reader engagement.",
+            "description": "This blog features a hero image, blog posts with categories, archive, and a contact section. Designed for accessibility and user-friendliness."
+        },
+        "portfolio": {
+            "shortDescription": "My personal portfolio in React and Gatsby",
+            "longDescription": "Previous school project built in React and Gatsby with Contentful and GraphQL.",
+            "description": "This oldportfolio showcases projects, education, and experience. Built using Contentful, GraphQL, and responsive design principles."
+        }
+    },
+
+    "projectsContent": {
+        "webShop": {
+            "shortDescription": "Figma - Sinus Webshop",
+            "longDescription": "This Figma project showcases the design for a webshop, emphasizing a visual style guide, component library, and clear structure. With reusable elements and a consistent layout, it provides a strong foundation for frontend development."
+        },
+        "recipeApp": {
+            "shortDescription": "A recipe app built in React",
+            "longDescription": "Users can select a category, view all recipes in that category, and see individual recipe details. Modern layout and intuitive navigation."
+        },
+        "eWallet": {
+            "shortDescription": "An e-wallet app built in Vue",
+            "longDescription": "Users can create an account, add cards, and view all added cards in a responsive layout. Designed and developed with Vue."
+        },
+        "starWars": {
+            "shortDescription": "A Star Wars catalog built in JavaScript",
+            "longDescription": "This project displays a character catalog where users can click a name to see details. Built with vanilla JavaScript and the Star Wars API."
+        },
+        "dogBooking": {
+            "shortDescription": "A dog training booking system in Umbraco",
+            "longDescription": "Users can search for dog trainers by area, see available slots in a calendar, enter dog details, and book sessions. Built in Umbraco CMS."
+        },
+        "dessertBlog": {
+            "shortDescription": "A dessert blog built in WordPress",
+            "longDescription": "This blog features a hero image, blog posts with categories, archive, and a contact section. Designed for accessibility and user-friendliness."
+        },
+
+
+        "portfolio": {
+            "shortDescription": "My personal portfolio in React and Gatsby",
+            "longDescription": "This oldportfolio showcases projects, education, and experience. Built using Contentful, GraphQL, and responsive design principles."
+        }
+    }, 
+
+    "contact": {
+        "title": "Contact Me",
+        "email": "Email",
+        "phone": "Phone",
+        "location": "Location",
+        "copy": "Copy",
+        "emailCopied": "Email copied to clipboard!"
+    },
+
+    "hobbies": {
+        "dice": {
+            "shortDescription": "React",
+            "longDescription": "A simple and fun dice game where the goal is to get all dice to show the same value. You can freeze dice between rolls to plan your strategy. Try to beat your previous score and enjoy each game session! Good luck!"
+        },
+        "mole": {
+            "shortDescription": "React",
+            "longDescription": "Whack as many moles (my family :D) as you can in 30 seconds! Some give bonus points or extra time. A fast-paced, fun game that challenges your reflexes."
+        },
+        "oldPortfolio": {
+            "name": "Previous portfolio",
+            "shortDescription": "Previous portfolio from a school project created with React, Gatsby, Contentful, GraphQL and responsive design principles.",
+            "longDescription": "My previous portfolio was created as a school project using React and Gatsby. I integrated Contentful for dynamic content management and used GraphQL for efficient data fetching. The design was built with HTML and CSS, focusing on a clean and user-friendly experience."
+        },
+        "lighthouse": {
+            "shortDescription": "Analysis report of my portfolio pages with high Lighthouse scores in all categories.",
+            "longDescription": "I used Google Lighthouse to evaluate my portfolio. The results show excellent performance, accessibility, SEO, and coding standards."
+            }
+    },
+
+    "hobbys": {
+        "dice": {
+            "title": "Dice Game",
+            "description": "Roll until all dice are the same. Click each die to freeze it at its current value between rolls. Try to beat your own high score and improve your results each time! Good luck and have fun playing!"
+        },
+        "mole": {
+            "title": "Mole Game",
+            "description": "Whack as many moles — 'my family' ;) — as you can in 30 seconds. Earn extra time by hitting tough moles. Some moles give you bonus points."
+        },
+        "oldPortfolio": {
+            "title": "Previous Portfolio",
+            "description": "School project portfolio built with React, Gatsby, Contentful, and GraphQL."
+        },
+        "lighthouse": {
+            "title": "Lighthouse Report of My Portfolio",
+            "description": "Analysis of my portfolio pages with high Lighthouse scores across all categories."
+        }
+    },
+
+    "notFound": {
+        "message": "404: This page doesn’t exist in this universe. Head back to the homepage to continue your journey.",
+        "backToHome": "Back to homepage"
+    }
+
+
+}
+              
+
+
+
+  

@@ -1,0 +1,239 @@
+{
+    "nav": {
+        "home": "Strona główna",
+        "about": "O mnie",
+        "projects": "Projekty",
+        "hobbies": "Hobby",
+        "contact": "Kontakt"
+    },
+    "home": {
+        "intro": "Jestem frontend deweloperem z pasją do tworzenia nowoczesnych, eleganckich i przyjaznych dla użytkownika aplikacji internetowych. Szybko się uczę i jestem zawsze ciekawa, aby poszerzać moją wiedzę i umiejętności. Moim celem jest wniesienie kreatywności i technicznej ekspertyzy do zespołu, aby tworzyć dobrze wykonane i innowacyjne rozwiązania.",
+        "skillstitle": "Moje doświadczenie",
+        "frontendTitle": "Frontend-Deweloper"
+    },
+    "about": {
+        "header": "Moje <span>Tło</span>: <span>Wykształcenie</span> i <span>Doświadczenie</span>",
+        "p1": " estem z wykształcenia systemowcem, a w ostatnich latach zrobiłam krok dalej w mojej karierze, specjalizując się jako frontend deweloper na IT-Uniwersytecie i przenosząc tę wiedzę na rynek pracy, gdzie nie mogę się doczekać, aby pracować nad ekscytującymi projektami, w których będę mógła łączyć technologię z kreatywnością.",
+        "p2": "Moim celem jest praca w środowisku, w którym będę mógła rozwijać zarówno moją miłość do funkcjonalności, jak i moje zainteresowanie kolorem i formą. Mój czas na IT-Uniwersytecie był owocną i inspirującą podróżą, w której poprzez projekty pogłębiłam moją wiedzę z zakresu frontend dewelopmentu. To doświadczenie wzmocniło moją pewność, że to właśnie tym chcę się zajmować, i cieszę się na dalszy rozwój w tej dziedzinie, codziennie stając się lepszym deweloperem.",
+        "p3": "Poza pracą moja kreatywność i ciekawość przejawiają się w wielu pasjach. Uwielbiam gotować i eksperymentować z nowymi przepisami, a moje zainteresowanie aranżacją wnętrz i projektowaniem doprowadziło mnie do stworzenia harmonijnego i inspirującego domu. Jako miłośniczka zwierząt, stworzyłam także zaangażowaną społeczność dla właścicieli psów, która liczy ponad 190 członków, gdzie organizujemy wspólne spacery i dzielimy się doświadczeniami.",
+        "edu": {
+            "start": "Początek",
+            "end": "Koniec"
+        },
+        "job": {
+            "start": "Początek",
+            "end": "Koniec"
+        }
+    },
+    
+    "educationTranslations": {
+        "iths": {
+            "institutionName": "IT Uniwersytet",
+            "program": "Frontend Developer, 2 lata"
+        },
+        "dsv": {
+            "institutionName": "Uniwersytet w Sztokholmie / DSV",
+            "program": "Nauki komputerowe i systemowe, 4 lata"
+        },
+        "pedagogik": {
+            "institutionName": "Uniwersytet w Sztokholmie",
+            "program": "Pedagogia, 2 lata"
+        },
+        "malmo": {
+            "institutionName": "Uniwersytet w Malmö",
+            "program": "Rozwój stron internetowych"
+        }
+    },
+    
+    "jobTranslations": {
+        "willys": {
+            "companyName": "Willy:s",
+            "jobTitle": "Asystent w sklepie",
+            "jobDescription": "Działalność detaliczna: kontakt z klientem i obsługa. Specjalności: obsługa kasy, sprzedaż, zamówienia, dostawy, raportowanie, inwentaryzacja."
+        },
+        "rib": {
+            "companyName": "Reglertekniska Ingenjörsbyrån AB (RIB)",
+            "jobTitle": "Asystent wykonawczy",
+            "jobDescription": "Usługi inżynierskie. Sektor edukacyjny: szkolenia przemysłowe, tworzenie materiałów szkoleniowych, planowanie, współpraca z firmami, księgowość i administracja."
+        },
+        "jimmys": {
+            "companyName": "Restauracja Jimmys Steakhouse",
+            "jobTitle": "Specjalista ds. wydarzeń",
+            "jobDescription": "Działalność restauracyjna: obsługa. Sektor: planowanie wydarzeń."
+        },
+        "alfredos": {
+            "companyName": "Restauracja Alfredos",
+            "jobTitle": "Pracownik",
+            "jobDescription": "Działalność restauracyjna. Sektor: menedżer obsługi."
+        },
+        "gastons": {
+            "companyName": "Restauracja Gastons",
+            "jobTitle": "Menedżer wydarzeń",
+            "jobDescription": "Działalność restauracyjna. Sektor: organizacja wydarzeń i gospodarzenie."
+        },
+        "skandia": {
+            "companyName": "Skandia Försäkringar",
+            "jobTitle": "Doradca finansowy",
+            "jobDescription": "Branża ubezpieczeniowa. Specjalności: doradztwo finansowe ogólne i osobiste."
+        },
+        "hm": {
+            "companyName": "H&M",
+            "jobTitle": "Frontend Developer",
+            "jobDescription": "Branża: IT & E-commerce."
+        }
+    },
+
+        
+    "projects": {
+        "header": "Moje projekty",
+        "categories": {
+            "figma": "Figma",
+            "react": "React",
+            "vue": "Vue",
+            "javascript": "JavaScript",
+            "umbraco": "Umbraco",
+            "wordpress": "WordPress"
+        },
+        "links": {
+            "viewMore": "Zobacz więcej",
+            "github": "GitHub",
+            "play": "Graj teraz"
+        }
+    },
+
+    "projectTranslations": {
+        "figma": {
+            "shortDescription": "Figma - Sinus Webshop",
+            "longDescription": "Projekt sklepu internetowego oparty na Figma, zawierający kompleksowy przewodnik po stylach, bibliotekę wielokrotnego użytku komponentów i przegląd projektu. Projekt zapewnia jasną wizualną drogę i spójność, umożliwiając jednocześnie efektywną współpracę i szybki rozwój.",
+            "description": "Projekt Figma pokazuje projekt sklepu internetowego, podkreślając przewodnik po stylach wizualnych, bibliotekę komponentów i przejrzystą strukturę. Z elementami wielokrotnego użytku i spójnym układem stanowi solidną podstawę do rozwoju frontendu."
+        },
+        "react": {
+            "shortDescription": "React - Przepisy",
+            "longDescription": "Projekt przepisu zbudowany w React, gdzie użytkownicy mogą przeglądać kategorie na stronie głównej, wybierać konkretną kategorię, aby filtrować przepisy, i przeglądać szczegóły na dedykowanej karcie przepisu. Backend używa bazy danych MongoDB uruchomionej w Dockerze, zapewniając wydajne i skalowalne przechowywanie danych. Intuicyjne doświadczenie w odkrywaniu ulubionych przepisów.",
+            "description": "Użytkownicy mogą wybrać kategorię, przeglądać wszystkie przepisy w tej kategorii i zobaczyć szczegóły poszczególnych przepisów. Nowoczesny układ i intuicyjna nawigacja."
+        },
+        "vue": {
+            "shortDescription": "Vue - E-wallet",
+            "longDescription": "Projekt e-portfela zbudowany w Vue, umożliwiający użytkownikom wprowadzanie swoich danych na stronie głównej, dodawanie nowych kart i uzyskiwanie przeglądu wszystkich utworzonych kart. Proste i przyjazne rozwiązanie do zarządzania kartami i danymi płatniczymi w formie cyfrowej.",
+            "description": "Użytkownicy mogą tworzyć konto, dodawać karty i przeglądać wszystkie dodane karty w responsywnym układzie. Zostało zaprojektowane i opracowane w Vue."
+        },
+        "javascript": {
+            "shortDescription": "JavaScript - Star Wars Catalog",
+            "longDescription": "Projekt katalogu Star Wars stworzony w JavaScript, gdzie użytkownicy mogą przeglądać postacie i wybierać jedną, aby zobaczyć szczegółowe informacje. Dynamiczny i angażujący sposób na eksplorację uniwersum Star Wars.",
+            "description": "Ten projekt wyświetla katalog postaci, gdzie użytkownicy mogą kliknąć imię, aby zobaczyć szczegóły. Zbudowane w czystym JavaScript i z wykorzystaniem API Star Wars."
+        },
+        "umbraco": {
+            "shortDescription": "Umbraco - Biegające psy",
+            "longDescription": "System rezerwacji szkoleń dla psów zbudowany w Umbraco dla prawdziwego biznesu 'Biegające psy'. Użytkownicy mogą przeczytać o firmie i jej usługach szkoleniowych, wprowadzać dane swojego psa oraz wyszukiwać dostępnych biegaczy psów w swojej okolicy. Platforma wspiera także wyszukiwanie konkretnych trenerów i rezerwację sesji bezpośrednio w ich kalendarzach.",
+            "description": "Użytkownicy mogą wyszukiwać trenerów psów - według lokalizacji, zobaczyć dostępne terminy w kalendarzu, wprowadzić dane psa i rezerwować sesje. Zbudowane w CMS Umbraco."
+        },
+        "wordpress": {
+            "shortDescription": "WordPress - Polskie Desery",
+            "longDescription": "Blog o deserach zbudowany w WordPressie, zawierający przyjazną stronę główną, sekcję blogową z linkami bocznymi do kategorii, archiwów i funkcji wyszukiwania. Backend rozwinięty w PHP do obsługi dynamicznej zawartości i interakcji z bazą danych. Zawiera również stronę kontaktową do angażowania czytelników.",
+            "description": "Ten blog zawiera obraz bohatera, posty blogowe z kategoriami, archiwum i sekcję kontaktową. Zaprojektowane z myślą o dostępności i łatwości użytkowania."
+        },
+        "portfolio": {
+            "shortDescription": "Poprzednie portfolio ze szkolnego projektu stworzone w React, Gatsby, Contentful, GraphQL.",
+            "longDescription": "Poprzedni projekt szkolny został stworzony w React i Gatsby z Contentful i GraphQL oraz zasad projektowania responsywnego.",
+            "description": "Poprzednie portfolio zbudowane z użyciem Contentful, GraphQL i zasad projektowania responsywnego."
+        }
+    },
+    
+    "projectsContent": {
+        "webShop": {
+            "shortDescription": "Figma - Sinus Webshop",
+            "longDescription": "Ten projekt Figma przedstawia projekt sklepu internetowego, podkreślając przewodnik po stylach wizualnych, bibliotekę komponentów i przejrzystą strukturę. Z elementami wielokrotnego użytku i spójnym układem stanowi solidną podstawę do rozwoju frontendu."
+        },
+        "recipeApp": {
+            "shortDescription": "Aplikacja przepisów zbudowana w React",
+            "longDescription": "Użytkownicy mogą wybrać kategorię, przeglądać wszystkie przepisy w tej kategorii i zobaczyć szczegóły poszczególnych przepisów. Nowoczesny układ i intuicyjna nawigacja."
+        },
+        "eWallet": {
+            "shortDescription": "Aplikacja portfela elektronicznego zbudowana w Vue",
+            "longDescription": "Użytkownicy mogą tworzyć konto, dodawać karty i przeglądać wszystkie dodane karty w responsywnym układzie. Zaprojektowane i opracowane w Vue."
+        },
+        "starWars": {
+            "shortDescription": "Katalog Star Wars zbudowany w JavaScript",
+            "longDescription": "Ten projekt wyświetla katalog postaci, gdzie użytkownicy mogą kliknąć imię, aby zobaczyć szczegóły. Zbudowane w czystym JavaScript i z wykorzystaniem API Star Wars."
+        },
+        "dogBooking": {
+            "shortDescription": "System rezerwacji szkoleń psów w Umbraco",
+            "longDescription": "Użytkownicy mogą wyszukiwać trenerów psów według lokalizacji, zobaczyć dostępne terminy w kalendarzu, wprowadzić dane psa i rezerwować sesje. Zbudowane w CMS Umbraco."
+        },
+        "dessertBlog": {
+            "shortDescription": "Blog o deserach zbudowany w WordPressie",
+            "longDescription": "Ten blog zawiera obraz bohatera, posty blogowe z kategoriami, archiwum i sekcję kontaktową. Zaprojektowane z myślą o dostępności i łatwości użytkowania."
+        },
+        "portfolio": {
+            "shortDescription": "Poprzednie portfolio ze szkolnego projektu stworzone w React, Gatsby, Contentful, GraphQL.",
+            "longDescription": "Poprzednie portfolio byl projektem szkolnym zbudowany z użyciem Contentful, GraphQL i zasad projektowania responsywnego."
+        }
+    },
+
+    "contact": {
+        "title": "Skontaktuj się",
+        "email": "E-mail",
+        "phone": "Telefon",
+        "location": "Lokalizacja",
+        "copy": "Skopiuj",
+        "emailCopied": "E-mail skopiowany!"
+    },
+
+    "hobbies": {
+        "dice": {
+            "shortDescription": "React",
+            "longDescription": "Prosta i zabawna gra w kości, w której celem jest uzyskanie tej samej wartości na wszystkich kostkach. Możesz zatrzymać wybrane kostki między rzutami, aby zaplanować strategię. Spróbuj pobić swój poprzedni wynik i ciesz się każdą rozgrywką! Powodzenia!"
+        },
+        "mole": {
+            "shortDescription": "React",
+            "longDescription": "Uderz jak najwięcej kretów (moja rodzina :D) w ciągu 30 sekund! Niektóre dają dodatkowe punkty lub czas. Szybka, zabawna gra sprawdzająca refleks."
+        },
+        "oldPortfolio": {
+            "name": "Poprzednie portfolio",
+            "shortDescription": "Poprzednie portfolio z projektu szkolnego stworzonego z wykorzystaniem React, Gatsby, Contentful, GraphQL i zasad responsywnego projektowania.",
+            "longDescription": "Moje poprzednie portfolio zostało stworzone jako projekt szkolny przy użyciu React i Gatsby. Zintegrowałam Contentful do zarządzania treściami dynamicznymi oraz GraphQL do wydajnego pobierania danych. Projekt oparty był na HTML i CSS, z naciskiem na przejrzystość i wygodę użytkownika."
+        },
+        "lighthouse": {
+            "shortDescription": "Raport analityczny moich stron portfolio z wysokimi wynikami Lighthouse we wszystkich kategoriach.",
+            "longDescription": "Użyłam Google Lighthouse do oceny mojego portfolio. Wyniki pokazują doskonałą wydajność, dostępność, SEO i standardy kodowania."
+        }
+    },
+
+    "hobbys": {
+        "dice": {
+            "title": "Gra w kości",
+            "description": "Rzucaj, aż wszystkie kostki pokażą tę samą wartość. Kliknij kostkę, aby ją zatrzymać przed kolejnym rzutem. Spróbuj pobić swój rekord i poprawić wynik! Powodzenia i miłej zabawy!"
+        },
+        "mole": {
+            "title": "Gra w krety",
+            "description": "Uderz jak najwięcej kretów — 'moja rodzina' ;) — w 30 sekund. Uderzając trudniejsze krety, zyskasz dodatkowy czas. Niektóre dają też bonusowe punkty."
+        },
+        "oldPortfolio": {
+            "title": "Poprzednie portfolio",
+            "description": "Portfolio ze szkolnego projektu stworzone w React, Gatsby, Contentful, GraphQL i zasad projektowania responsywnego."
+        },
+        "lighthouse": {
+            "title": "Raport Lighthouse mojego portfolio",
+            "description": "Analiza moich stron portfolio z wysokimi wynikami Lighthouse we wszystkich kategoriach."
+        }
+    },
+
+    "notFound": {
+        "message": "404: Ta strona nie istnieje w tym wszechświecie. Wróć na stronę główną, aby kontynuować swoją podróż.",
+        "backToHome": "Powrót do strony głównej"
+    }
+
+}
+    
+    
+
+        
+
+        
+    
+    
+
+
+
+
+

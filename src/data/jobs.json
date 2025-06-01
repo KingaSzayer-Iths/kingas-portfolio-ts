@@ -1,51 +1,50 @@
 [
     {
-        "companyName": "Willy:s",
-        "jobTitle": "Butiksbiträde",
-        "jobDescription": "Butiksverksamhet: detaljhandel, Sektorn: kundkontakter och service, Specialområden: kassa hantering, försäljning, beställning, leverans, rapportering, inventering.",
+        "id": "willys",
+        "companyName": "jobTranslations.willys.companyName",
+        "jobTitle": "jobTranslations.willys.jobTitle",
+        "jobDescription": "jobTranslations.willys.jobDescription",
         "startDatum": "2009-05-09T00:00:00",
         "slutDatum": "2024-07-10T00:00:00"
     },
     {
-        "companyName": "Reglertekniska Ingenjörsbyrån AB (RIB)",
-        "jobTitle": "Chefsassistent",
-        "jobDescription": "Ingenjörsverksamhet, Utbildningssektorn: industriutbildningar, sammanställning av utbildningsmaterial, planering och sammarbete med andra företag samt bokslut och administration.",
+        "id": "rib",
+        "companyName": "jobTranslations.rib.companyName",
+        "jobTitle": "jobTranslations.rib.jobTitle",
+        "jobDescription": "jobTranslations.rib.jobDescription",
         "startDatum": "2005-10-17T00:00:00",
         "slutDatum": "2009-05-08T00:00:00"
     },
     {
-        "companyName": "Restaurang Jimmys Steakhouse",
-        "jobTitle": "Event Specialist",
-        "jobDescription": "Restaurangverksamhet: service, Sektorn: events planering.",
+        "id": "jimmys",
+        "companyName": "jobTranslations.jimmys.companyName",
+        "jobTitle": "jobTranslations.jimmys.jobTitle",
+        "jobDescription": "jobTranslations.jimmys.jobDescription",
         "startDatum": "2004-09-16T00:00:00",
         "slutDatum": "2005-10-18T00:00:00"
     },
     {
-        "companyName": "Restaurang Alfredos",
-        "jobTitle": "Medarbetare",
-        "jobDescription": "Restaurangverksamhet, Sektorn: service.",
+        "id": "alfredos",
+        "companyName": "jobTranslations.alfredos.companyName",
+        "jobTitle": "jobTranslations.alfredos.jobTitle",
+        "jobDescription": "jobTranslations.alfredos.jobDescription",
         "startDatum": "2001-06-15T00:00:00",
         "slutDatum": "2004-09-16T00:00:00"
     },
     {
-        "companyName": "Restaurang Gastons",
-        "jobTitle": "Event Manager",
-        "jobDescription": "Restaurangverksamhet, Sektorn: entrévärd, events organisatör.",
+        "id": "gastons",
+        "companyName": "jobTranslations.gastons.companyName",
+        "jobTitle": "jobTranslations.gastons.jobTitle",
+        "jobDescription": "jobTranslations.gastons.jobDescription",
         "startDatum": "1999-01-07T00:00:00",
         "slutDatum": "2001-06-20T00:00:00"
     },
     {
-        "companyName": "Skandia Försäkringar",
-        "jobTitle": "Finansiell rådgivare",
-        "jobDescription": "Försäkringsverksamhet, Specialområden: generell och personlig finansiell rådgivning.",
+        "id": "skandia",
+        "companyName": "jobTranslations.skandia.companyName",
+        "jobTitle": "jobTranslations.skandia.jobTitle",
+        "jobDescription": "jobTranslations.skandia.jobDescription",
         "startDatum": "1997-05-12T00:00:00",
         "slutDatum": "1999-01-20T00:00:00"
-    },
-    {
-        "companyName": "H&M",
-        "jobTitle": "Frontend-utvecklare",
-        "jobDescription": "Sektorn: IT-Handel",
-        "startDatum": "2024-09-05T00:00:00",
-        "slutDatum": ""
     }
 ]

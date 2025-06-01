@@ -1,0 +1,14 @@
+
+//Detta säger till webbläsare att cacha dessa filer i ett år (max-age) och inte kontrollera dem igen (immutable).
+
+/*.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.woff2
+  Cache-Control: public, max-age=31536000, immutable

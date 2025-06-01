@@ -28,12 +28,11 @@
     {
         "name":"Tidigare portfolio",
         "shortDescription":"GraphQL",
-        "longDescription":"Min tidigare porfolio, skapad med React och Gatsby där jag integrerade Contentful för dynamiskt innehållshantering och använde GraphQL för effektiva dataförfrågningar. Designen är kodad i HTML och CSS för att ge en stillren och användarvänlig upplevelse.",
+        "longDescription":"xMin tidigare porfolio, skapad med React och Gatsby där jag integrerade Contentful för dynamiskt innehållshantering och använde GraphQL för effektiva dataförfrågningar. Designen är kodad i HTML och CSS för att ge en stillren och användarvänlig upplevelse.",
         "images": [
             "./images/portfolio_homepage1_old.webp",
             "./images/portfolio_homepage2_old.webp",
             "./images/portfolio_om_mig_old.webp",
-            "./images/portfolio_utbildning_old.webp",
             "./images/projektoversikt_old.webp",
             "./images/figma-styleguide1.webp",
             "./images/figma-komponenter.webp",
@@ -55,5 +54,7 @@
         "github": "https://github.com/KingaSzayer-Iths/e-wallet"
 
     }
+        
+        
 
 ]

@@ -1,0 +1,235 @@
+{
+    "nav": {
+        "home": "Hem",
+        "about": "Om mig",
+        "projects": "Projekt",
+        "hobbies": "Hobby",
+        "contact": "Kontakt"
+    },
+    "home": {
+        "intro": "Jag är en frontend-utvecklare med en passion för att skapa moderna, stilrena och användarvänliga webbapplikationer. Jag lär mig snabbt och är ständigt nyfiken på att bredda mina kunskaper och färdigheter. Mitt mål är att bidra med kreativitet och teknisk expertis till ett team för att skapa välgjorda och innovativa lösningar.",
+        "skillstitle": "Mina erfarenheter",
+        "frontendTitle": "Frontend-utvecklare"
+    },
+    "about": {
+            "header": "Min <span>Bakgrund</span>: <span>Utbildningar</span> och <span>Erfarenheter</span>",
+            "p1": "ag är systemvetare i grunden och har under de senaste åren tagit steget vidare i min karriär och specialiserat mig genom att utbilda mig till frontend-utvecklare på IT-Högskolan och bär det ut till arbetslivet där jag ser fram emot att få arbeta med spännande projekt där jag kan kombinera teknik med kreativitet.",
+            "p2": "Mitt mål är att arbeta i en miljö där jag kan utveckla både min kärlek för funktionalitet och mitt intresse för färg och form. Min tid på IT-Högskolan har varit en givande och inspirerande resa där jag genom projekt fått fördjupa mig i frontend-utveckling. Den erfarenheten har stärkt min övertygelse om att detta är det jag vill ägna mig åt och jag ser fram emot att fortsätta växa inom mitt område och för varje dag som går bli en bättre utvecklare.",
+            "p3": "Utanför arbetslivet tar min kreativitet och nyfikenhet sig uttryck i flera passioner. Jag älskar att laga mat och utforska nya recept och mitt intresse för inredning och formgivning har lett till att jag skapat ett harmoniskt och inspirerande hem. Som djurvän har jag också byggt upp en engagerad community för hundägare med över 190 medlemmar där vi arrangerar gemensamma promenader och delar erfarenheter.",
+            
+        "edu": {
+            "start": "Start",
+            "end": "Slut"
+            },
+        "job": {
+            "start": "Start",
+            "end": "Slut"
+            }    
+    },
+
+    "educationTranslations": {
+        "iths": {
+            "institutionName": "IT-Högskolan",
+            "program": "Frontend-utvecklare, 2 år"
+        },
+        "dsv": {
+            "institutionName": "Stockholms Universitet / DSV",
+            "program": "Data- och systemvetenskap, 4 år"
+        },
+        "pedagogik": {
+            "institutionName": "Stockholms Universitet",
+            "program": "Pedagogik, 2 år"
+        },
+        "malmo": {
+            "institutionName": "Malmö Universitet",
+            "program": "Webbutveckling"
+        }
+    },
+
+
+    "jobTranslations": {
+        "willys": {
+            "companyName": "Willy:s",
+            "jobTitle": "Butiksbiträde",
+            "jobDescription": "Butiksverksamhet: detaljhandel, Sektorn: kundkontakter och service, Specialområden: kassa hantering, försäljning, beställning, leverans, rapportering, inventering."
+        },
+        "rib": {
+            "companyName": "Reglertekniska Ingenjörsbyrån AB (RIB)",
+            "jobTitle": "Chefsassistent",
+            "jobDescription": "Ingenjörsverksamhet, Utbildningssektorn: industriutbildningar, sammanställning av utbildningsmaterial, planering och samarbete med andra företag samt bokslut och administration."
+        },
+        "jimmys": {
+            "companyName": "Restaurang Jimmys Steakhouse",
+            "jobTitle": "Event Specialist",
+            "jobDescription": "Restaurangverksamhet: service, Sektorn: events planering."
+        },
+        "alfredos": {
+            "companyName": "Restaurang Alfredos",
+            "jobTitle": "Medarbetare",
+            "jobDescription": "Restaurangverksamhet, Sektorn: service ansvarig."
+        },
+        "gastons": {
+            "companyName": "Restaurang Gastons",
+            "jobTitle": "Event Manager",
+            "jobDescription": "Restaurangverksamhet, Sektorn: entrévärd, evenemangsorganisatör."
+        },
+        "skandia": {
+            "companyName": "Skandia Försäkringar",
+            "jobTitle": "Finansiell rådgivare",
+            "jobDescription": "Försäkringsverksamhet, Specialområden: generell och personlig finansiell rådgivning."
+        },
+        "hm": {
+            "companyName": "H&M",
+            "jobTitle": "Frontend-utvecklare",
+            "jobDescription": "Sektorn: IT-Handel."
+        }
+    },
+
+    "projects": {
+        "header": "Mina projekt",
+        "categories": {
+            "figma": "Figma",
+            "react": "React",
+            "vue": "Vue",
+            "javascript": "JavaScript",
+            "umbraco": "Umbraco",
+            "wordpress": "WordPress"
+        },
+        "links": {
+            "viewMore": "Visa mer",
+            "github": "GitHub",
+            "play": "Spela nu"
+        }
+    },
+
+    "projectTranslations": {
+        "figma": {
+            "shortDescription": "Figma - Sinus Webshop",
+            "longDescription": "Ett Figma-projekt, en webbshop i frontend som omfattar en genomarbetad styleguide, ett bibliotek med återanvändbara komponenter och en översikt av projektet. Designen ger en tydlig visuell riktning och enhetlighet, samtidigt som det underlättar effektivt samarbete och snabb utveckling.",
+            "description": "Detta Figma-projekt visar designen för en webbshop med fokus på en visuell stilguide, komponentbibliotek och tydlig struktur. Med återanvändbara element och enhetlig layout skapas en effektiv grund för frontendutveckling."
+        },
+        "react": {
+            "shortDescription": "React - Recept",
+            "longDescription": "Ett receptprojekt byggt i React, där användaren kan bläddra bland kategorier på startsidan, välja en specifik kategori för att filtrera recepten och sedan visa detaljer för ett enskilt recept i ett dedikerat receptkort. Backend använder en MongoDB-databas körd i Docker för effektiv och skalbar datalagring. En intuitiv och smidig upplevelse för att hitta favoritrecept.",
+            "description": "Appen låter användare välja kategori, visa alla recept inom en kategori, och klicka sig in på enskilda recept. Modern layout och tydlig navigering."
+        },
+        "vue": {
+            "shortDescription": "Vue - E-wallet",
+            "longDescription": "Ett e-wallet-projekt byggt i Vue, där användaren kan fylla i sina uppgifter på startsidan, lägga till nya kort och få en översikt av alla skapade kort. En enkel och användarvänlig lösning för att hantera kort och betalningsinformation digitalt.",
+            "description": "Användaren kan skapa användarkonto, lägga till kort och se alla registrerade kort i ett responsivt gränssnitt. Design och funktion byggd i Vue."
+        },
+        "javascript": {
+            "shortDescription": "Native JavaScript - Star Wars-katalog",
+            "longDescription": "En Star Wars-katalog byggd i native JavaScript, där användaren kan bläddra bland karaktärer på startsidan och välja en för att få detaljerad information. En dynamisk och engagerande upplevelse för att utforska Star Wars-universumet.",
+            "description": "Projektet visar en karaktärskatalog där användaren kan klicka på ett namn och se detaljer om karaktären. Skapat med ren JavaScript och Star Wars API."
+        },
+        "umbraco": {
+            "shortDescription": "Umbraco - Running dogs",
+            "longDescription": "Ett bokningssystem för hundträning, byggt i Umbraco för ett verkligt företag 'Running dogs'. Användaren kan läsa om företaget och deras träningstjänster, fylla i hundens uppgifter och söka efter tillgängliga dogrunners i sitt område. Plattformen möjliggör även sökning efter specifika tränare och bokning av tider direkt i deras kalender.",
+            "description": "Användare kan söka hundförare per område, se tillgängliga tider i en kalender, fylla i hunduppgifter och boka sessioner. Implementerad i Umbraco CMS."
+       },
+        "wordpress": {
+            "shortDescription": "WordPress - Polska desserter",
+            "longDescription": "En dessertblogg byggd i WordPress, med en inbjudande hero-sida, en bloggsektion där inlägg presenteras tillsammans med en sidomeny med kategorilänkar, arkiv och sökfunktion. Backend är utvecklad med PHP för att hantera dynamiskt innehåll. Projektet inkluderar även en kontaktsida för enkel kommunikation med läsarna.",
+            "description": "Denna blogg innehåller en hjältebild, bloggposter med kategorier, arkiv och en kontaktsektion. Designad med ett fokus på användarvänlighet och tillgänglighet."
+       },
+       "portfolio": {
+            "shortDescription": "Tidigare skolprojekt byggt i React och Gatsby med Contentful och GraphQL.",
+            "longDescription": "Tidigare skolprojekt byggt i React och Gatsby med Contentful och GraphQL.",
+            "description": "Portfolion (en av mina tidigare skolprojekt) visar projekt, utbildning och erfarenhet. Implementerad med Contentful, GraphQL och responsiv design."
+        }
+    }, 
+
+    "projectsContent": {
+        "webShop": {
+            "shortDescription": "Figma - Sinus Webshop",
+            "longDescription": "Detta Figma-projekt visar designen för en webbshop med fokus på en visuell stilguide, komponentbibliotek och tydlig struktur. Med återanvändbara element och enhetlig layout skapas en effektiv grund för frontendutveckling."
+        },
+        "recipeApp": {
+            "shortDescription": "En receptsida byggd i React",
+            "longDescription": "Appen låter användare välja kategori, visa alla recept inom en kategori, och klicka sig in på enskilda recept. Modern layout och tydlig navigering."
+        },
+        "eWallet": {
+            "shortDescription": "En e-wallet-applikation byggd i Vue",
+            "longDescription": "Användaren kan skapa användarkonto, lägga till kort och se alla registrerade kort i ett responsivt gränssnitt. Design och funktion byggd i Vue."
+        },
+        "starWars": {
+            "shortDescription": "En Star Wars-katalog byggd i JavaScript",
+            "longDescription": "Projektet visar en karaktärskatalog där användaren kan klicka på ett namn och se detaljer om karaktären. Skapat med ren JavaScript och Star Wars API."
+        },
+        "dogBooking": {
+            "shortDescription": "Bokningssystem för hundträning i Umbraco",
+            "longDescription": "Användare kan söka hundförare per område, se tillgängliga tider i en kalender, fylla i hunduppgifter och boka sessioner. Implementerad i Umbraco CMS."
+        },
+        "dessertBlog": {
+            "shortDescription": "En blogg om desserter skapad i WordPress",
+            "longDescription": "Denna blogg innehåller en hjältebild, bloggposter med kategorier, arkiv och en kontaktsektion. Designad med ett fokus på användarvänlighet och tillgänglighet."
+        },
+        "portfolio": {
+            "shortDescription": "Min tidigare portfolio i React och Gatsby",
+            "longDescription": "Portfolion (en av mina tidigare skolprojekt) visar projekt, utbildning och erfarenhet. Implementerad med Contentful, GraphQL och responsiv design."
+        }
+    },
+
+    "contact": {
+        "title": "Kontakta mig",
+        "email": "E-post",
+        "phone": "Telefon",
+        "location": "Plats",
+        "copy": "Kopiera",
+        "emailCopied": "E-post kopierad till urklipp!"
+        },
+
+    "hobbies": {
+        "dice": {
+            "shortDescription": "React",
+            "longDescription": "Ett enkelt och roligt tärningsspel där målet är att få alla tärningar att visa samma värde. Du kan frysa tärningar mellan kast för att planera din strategi. Försök slå ditt tidigare rekord och ha kul varje gång du spelar! Lycka till!"
+            },
+        "mole": {
+            "shortDescription": "React",
+            "longDescription": "Slå så många mullvadar (min familj :D) du hinner på 30 sekunder! Vissa ger extra poäng eller mer tid. Ett snabbt och roligt spel som testar din reaktionsförmåga."
+            },
+        "oldPortfolio": {
+            "name": "Tidigare portfolio",
+            "shortDescription": "Tidigare portfolio från ett skolprojekt skapat med React, Gatsby, Contentful, GraphQL och responsiv designprinciper.",
+            "longDescription": "Min tidigare portfolio skapad som ett skolprojekt med React och Gatsby. Jag integrerade Contentful för dynamisk innehållshantering och använde GraphQL för effektiva dataförfrågningar. Designen byggdes med HTML och CSS med fokus på en stilren och användarvänlig upplevelse."
+            },
+        "lighthouse": {
+            "shortDescription": "Analys rapport av mina portfoliosidor med höga Lighthouse-resultat i alla kategorier.",
+            "longDescription": "Jag använde Google Lighthouse för att utvärdera min portfolio. Resultaten visar mycket god prestanda, tillgänglighet, SEO och kodstandard."
+            }
+    },
+    
+    "hobbys": {
+        "dice": {
+            "title": "Dice - spel",
+            "description": "Rulla tills alla tärningar är likadana. Klicka på varje tärning för att frysa den till dess nuvarande värde mellan kasten. Försök slå ditt eget rekord och förbättra dina resultat varje gång! Lycka till och ha kul med spelet!"
+            },
+        "mole": {
+            "title": "Mole - spel",
+            "description": "Slå så många mullvadar \"min familj\" ;) du kan inom 30 sekunder. Tjäna extra tid genom att slå hårda mullvadar. Vissa mullvadar ger dig extra poäng."
+        },
+        "oldPortfolio": {
+            "name": "xgammal",
+            "title": "Tidigare portfolio",
+            "description": "Tidigare skolprojekt byggt i React och Gatsby med Contentful och GraphQL."
+        },
+        "lighthouse": {
+            "title": "Lighthouse-rapport av min portfolio",
+            "description": "Analys av mina portfoliosidor med höga resultat i alla Lighthouse-kategorier."
+        }
+    },
+
+    "notFound": {
+        "message": "404: Sidan existerar inte i detta universum. Återvänd till startsidan för att fortsätta din resa.",
+        "backToHome": "Tillbaka till startsidan"
+    }
+      
+}
+          
+
+
+
+
+
+  

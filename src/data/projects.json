@@ -1,8 +1,9 @@
 [
     {
+        "id": "figma",
         "name":"Figma",
         "shortDescription":"Figma - Sinus Webshop",
-        "longDescription":"Ett Figma-projekt, en webbshop i frontend som omfattar en genomarbetad styleguide, ett bibliotek med återanvändbara komponenter och en översikt av projektet. Designen ger en tydlig visuell riktning och enhetlighet, samtidigt som det underlättar effektivt samarbete och snabb utveckling.", 
+        "longDescription":"projectTranslations.figma.longDescription", 
         "images": [  
             "./images/figma-components.webp", 
             "./images/figma-sinus-pages.webp",
@@ -10,38 +11,46 @@
             "./images/figma-componentpage.webp"
         ],
         "mainImage": "./images/figma-componentpage.webp",
-        "github": "https://github.com/KingaSzayer-Iths/sinus-project"
+        "github": "https://github.com/KingaSzayer-Iths/sinus-project",
+        "description": "projectTranslations.figma.description",
+        "tech": "figma"
         
     },
     {
+        "id": "react",
         "name":"React",
         "shortDescription":"React - Recipe",
-        "longDescription":"Ett receptprojekt byggt i React, där användaren kan bläddra bland kategorier på startsidan, välja en specifik kategori för att filtrera recepten och sedan visa detaljer för ett enskilt recept i ett dedikerat receptkort. Backend använder en MongoDB-databas körd i Docker för effektiv och skalbar datalagring. En intuitiv och smidig upplevelse för att hitta favoritrecept.",
+        "longDescription":"projectTranslations.react.longDescription",
         "images": [
             "./images/react-recipe_search.webp",
             "./images/React-recipe_unik.webp",
             "./images/React-recipe1.webp"
-
         ],
         "mainImage": "./images/React-recipe1.webp",
-        "github": "https://github.com/KingaSzayer-Iths/fullstack-recipe"
+        "github": "https://github.com/KingaSzayer-Iths/fullstack-recipe",
+        "description": "projectTranslations.react.description",
+        "tech": "react"
     },
     {
+        "id": "vue",
         "name":"Vue",
         "shortDescription":"Vue - E-wallet",
-        "longDescription":"Ett e-wallet-projekt byggt i Vue, där användaren kan fylla i sina uppgifter på startsidan, lägga till nya kort och få en översikt av alla skapade kort. En enkel och användarvänlig lösning för att hantera kort och betalningsinformation digitalt.",
+        "longDescription":"projectTranslations.vue.longDescription",
         "images": [
             "./images/vue-ewallet_add_card.webp",
             "./images/vue-ewallet_all_cards.webp",
             "./images/vue-ewallet-oversikt.webp"
         ],
         "mainImage": "./images/vue-ewallet_all_cards.webp",
-        "github": "https://github.com/KingaSzayer-Iths/e-wallet"
+        "github": "https://github.com/KingaSzayer-Iths/e-wallet",
+        "description": "projectTranslations.vue.description",
+        "tech": "vue"
     },
     {
+        "id": "javascript",
         "name":"Java Script",
         "shortDescription":"Native JavaScript - Star Wars Catalog",
-        "longDescription":"En Star Wars Catalog-projekt byggt i native JavaScript, där användaren kan bläddra bland karaktärer på startsidan och välja en för att få detaljerad information. En dynamisk och engagerande upplevelse för att utforska Star Wars-universumet.",
+        "longDescription":"projectTranslations.javascript.longDescription",
         "images": [
             "./images/js-star_wars_catalog1.webp",
             "./images/js-starwars-detaljpage.webp",
@@ -49,12 +58,15 @@
             "./images/js-starwars-startpage.webp"
         ],
         "mainImage": "./images/js-star_wars_catalog1.webp",
-        "github": "https://github.com/KingaSzayer-Iths/slutprojekt-native-javascript"
+        "github": "https://github.com/KingaSzayer-Iths/slutprojekt-native-javascript",
+        "description": "projectTranslations.javascript.description",
+        "tech": "javascript"
     },
     {
+        "id": "umbraco",
         "name":"Umbraco",
         "shortDescription":"Umbraco - Running dogs",
-        "longDescription":"Ett bokningssystem för hundträning, byggt i Umbraco för ett verkligt företag 'Running dogs'. Användaren kan läsa om företaget och deras träningstjänster, fylla i hundens uppgifter och söka efter tillgängliga dogrunners i sitt område. Plattformen möjliggör även sökning efter specifika tränare och bokning av tider direkt i deras kalender, vilket ger en smidig och användarvänlig bokningsupplevelse.",
+        "longDescription":"projectTranslations.umbraco.longDescription",
         "images": [
             "./images/umbraco-rd_aboutUs_code.webp",
             "./images/umbraco-rd-content-aboutUs.webp",
@@ -66,12 +78,15 @@
             "./images/umbraco-allpages.webp"
         ],
         "mainImage": "./images/umbraco-coachingpage.webp",
-        "github": "https://github.com/Juuss/RD"
+        "github": "https://github.com/Juuss/RD",
+        "description": "projectTranslations.umbraco.description",
+        "tech": "umbraco"
     },
     {
+        "id": "wordpress",
         "name":"WordPress",
         "shortDescription":"WordPress - Polska desserter",
-        "longDescription":"En dessertblogg byggd i WordPress, med en inbjudande hero-sida, en bloggsektion där inlägg presenteras tillsammans med en sidomeny med kategorilänkar, arkiv och sökfunktion. Backend är utvecklad med PHP för att hantera dynamiskt innehåll och databaskommunikation. Projektet inkluderar även en kontaktsida för enkel kommunikation med läsarna. En inspirerande och användarvänlig plattform för dessertälskare.",
+        "longDescription":"projectTranslations.wordpress.longDescription",
         "images": [
             "./images/wordpress-bloggpage.webp",
             "./images/wordpress-heropage.webp",
@@ -79,6 +94,8 @@
             "./images/wordpress-contactpage.webp"
         ],
         "mainImage": "./images/wordpress-homepage.webp",
-        "github": "https://587179202128-r2j1cqnc1cosd9tud7onk2v8fvnjkkb7.apps.googleusercontent.com/"
+        "github": "https://587179202128-r2j1cqnc1cosd9tud7onk2v8fvnjkkb7.apps.googleusercontent.com/",
+        "description": "projectTranslations.wordpress.description",
+        "tech": "wordpress"
     }
 ]

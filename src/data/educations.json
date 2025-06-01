@@ -1,27 +1,25 @@
 [
    
     {
-        "institutionName": "Stockholm Universitet",
-        "program": "Pedagogik, 2 år",
-        "startDatum": "2018-08-19T00:00:00",
-        "slutDatum": "2020-05-28T00:00:00"
+        "id": "pedagogik",
+        "institutionName": "educationTranslations.pedagogik.institutionName",
+        "program": "educationTranslations.pedagogik.program",
+        "startDatum": "2015-08-19T00:00:00",
+        "slutDatum": "2017-05-28T00:00:00"
     },
     {
-        "institutionName": "Stockholm Universitet",
-        "program": "Data och systemvetenskap, 4 år",
-        "startDatum": "2012-08-19T00:00:00",
-        "slutDatum": "2016-06-02T00:00:00"
+        "id": "dsv",
+        "institutionName": "educationTranslations.dsv.institutionName",
+        "program": "educationTranslations.dsv.program",
+        "startDatum": "2017-08-19T00:00:00",
+        "slutDatum": "2021-06-02T00:00:00"
     },
     {
-        "institutionName": "IT-Högskolan",
-        "program": "Frontend-utvecklare, 2år",
+        "id": "iths",
+        "institutionName": "educationTranslations.iths.institutionName",
+        "program": "educationTranslations.iths.program",
         "startDatum": "2021-08-22T00:00:00",
         "slutDatum": "2023-06-08T00:00:00"
-    },
-    {
-        "institutionName": "Malmö Universitet",
-        "program": "Webbutveckling || ",
-        "startDatum": "2025-09-13T00:00:00",
-        "slutDatum": ""
     }
+
 ]

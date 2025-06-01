@@ -1,60 +1,57 @@
 import React from 'react'
 import educations from './data/educations.json'
 import jobs from './data/jobs.json'
+import { useTranslation } from 'react-i18next'
 
 
 
-// const formatDate = (dateStr: string) => {
-//   if (!dateStr) return "Pågår";
-//   return new Date(dateStr).toLocaleDateString("sv-SE", {
-//     year: "numeric",
-//     month: "short",
-//   });
-// };
+type Education = {
+  id: string
+  institutionName: string
+  program: string
+  startDatum: string
+  slutDatum?: string
+}
+
+type Job = {
+  id: string
+  companyName: string
+  jobTitle: string
+  jobDescription: string
+  startDatum: string
+  slutDatum?: string
+}
+
 
 const formatDate = (dateStr?: string) => {
-  if (!dateStr) return "Pågår";
+  if (!dateStr) return "Pågår"
 
-  // Lägg till T00:00:00 om det inte redan finns
-  const safeDate = dateStr.includes("T") ? dateStr : `${dateStr}T00:00:00`;
+  const safeDate = dateStr.includes("T") ? dateStr : `${dateStr}T00:00:00`
 
-  const date = new Date(safeDate);
-  if (isNaN(date.getTime())) return "Ogiltigt datum";
+  const date = new Date(safeDate)
+  if (isNaN(date.getTime())) return "Ogiltigt datum"
 
   return date.toLocaleDateString("sv-SE", {
     year: "numeric",
     month: "short",
-  });
-};
+  })
+}
 
 function About() {
-  return <>
+  const { t } = useTranslation()
+  const educationList = educations as Education[]
+  const jobList = jobs as Job[]
+
+
+  return ( <>
   <main>
     <div className="about-container">
-    {/* <h1>Om mig</h1> */}
     <div className="about-header">
-    <h2>Min <span>Bakgrund</span>: <span>Utbildningar</span> och <span>Erfarenheter</span></h2>
+    <h2 dangerouslySetInnerHTML={{ __html: t('about.header') }} />
     </div>
-    <p><span>J</span>ag är systemvetare i grunden och har under de senaste åren tagit steget vidare i min karriär och specialiserat mig genom att utbilda mig till frontend-utvecklare på IT-Högskolan och bär det ut till arbetslivet där jag ser fram emot att få arbeta med spännande projekt där jag kan kombinera teknik med kreativitet.
-    </p>
-    <p>
-    Mitt mål är att arbeta i en miljö där jag kan utveckla både min kärlek för funktionalitet och mitt intresse för färg och form. Min tid på IT-Högskolan har varit en givande och inspirerande resa, där jag genom projekt fått fördjupa mig i frontend-utveckling. Den erfarenheten har stärkt min övertygelse om att detta är det jag vill ägna mig åt och jag ser fram emot att fortsätta växa inom mitt område och för varje dag som går bli en bättre utvecklare.
-    </p>
-    <p>
-    Utanför arbetslivet återspeglas min passion för kreativitet och nyskapande i flera andra intressen. Jag brinner för matlagning, inredning och formgivning, där jag gärna experimenterar med nya recept. Jag har även skapat ett fridfullt och inspirerande hem omkring mig. Jag är också en djurvän och har bildat en community med över 170 medlemmar för hundägare, där vi organiserar gemensamma promenader och utbyter erfarenheter.
-    </p>
-    
-
-    {/* <section className="edu">
-{educations.map(education =>
-                  <article key={education.program}>
-                    <h2>{education.institutionName}</h2>
-                    <h3>{education.program}</h3>
-                    <h6>{education.startDatum}</h6>
-                    <h6>{education.slutDatum}</h6>
-                  </article> 
-                  ).sort((a: any, b: any) => parseInt(a.stopYear) - parseInt(b.stopYear))}
-    </section> */}
+    <p><span>J </span>{t('about.p1')}</p>
+    <p>{t('about.p2')}</p>
+    <p>{t('about.p3')}</p>
 
 
 <section className="edu">
@@ -65,36 +62,39 @@ function About() {
         new Date(a.slutDatum || Date.now()).getTime()
     )
     .map((education) => (
-      <article key={education.program}>
-        <h2>{education.institutionName}</h2>
-        <h3>{education.program}</h3>
-        <h6>Start: {formatDate(education.startDatum)}</h6>
-        <h6>Slut: {formatDate(education.slutDatum)}</h6>
+      <article key={education.id}>
+        <h2>{t(education.institutionName)}</h2>
+        <h3>{t(education.program)}</h3>
+        {/* <h6>{t('about.edu.start')}: {formatDate(education.startDatum)}</h6>
+        <h6>{t('about.edu.end')}: {formatDate(education.slutDatum)}</h6> */}
       </article>
     ))}
 </section>
 
 <section className="job">
-  {[...jobs]
-    .sort(
-      (a, b) =>
-        new Date(b.slutDatum || Date.now()).getTime() -
-        new Date(a.slutDatum || Date.now()).getTime()
-    )
-    .map((job) => (
-      <article key={job.companyName}>
-        <h2>{job.companyName}</h2>
-        <h3>{job.jobTitle}</h3>
-        <h4>{job.jobDescription}</h4>
-        <h6>Start: {formatDate(job.startDatum)}</h6>
-        <h6>Slut: {formatDate(job.slutDatum)}</h6>
-      </article>
+{[...jobs]
+        .sort(
+          (a, b) =>
+            new Date(b.slutDatum || Date.now()).getTime() -
+            new Date(a.slutDatum || Date.now()).getTime()
+        )
+        .map((job) => (
+
+            <article key={job.id}>
+              <h2>{t(job.companyName)}</h2>
+              <h3>{t(job.jobTitle)}</h3>
+              <h4>{t(job.jobDescription)}</h4>
+              <h6>{t('about.job.start')}: {formatDate(job.startDatum)}</h6>
+              <h6>{t('about.job.end')}: {formatDate(job.slutDatum)}</h6>
+            </article>
+
     ))}
 </section>
 
 </div>
 </main>
   </>
+  )
 }
 
 export default About

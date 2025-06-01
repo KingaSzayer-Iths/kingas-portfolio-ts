@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import NotFound from './NotFound'
 import Nav from './components/Nav'
 import Home from './home'
 import About from './about'
@@ -7,10 +8,10 @@ import Projects from './projects'
 import Hobbys from './hobbys'
 import Contact from './contact'
 import Footer from './components/Footer'
-import Picture from './components/Picture'
 import Project from './project'
 import './App.css'
 import Hobby from './hobby'
+import Picture from './components/Picture'
 
 
 const App = () => {
@@ -29,6 +30,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/project" element={<Project  />} />
           <Route path="/hobby" element={<Hobby />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </div>
