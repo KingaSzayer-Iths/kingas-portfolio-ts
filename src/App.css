@@ -1203,13 +1203,15 @@ ul {
   /* display: flex; */
   flex-direction: column;
   justify-content: space-between;
-  width: 34px;
-  height: 26px;
+  width: 32px;
+  height: 20px;
+  /* width: 34px;
+  height: 26px; */
   position: relative;
   cursor: pointer;
   position: absolute;
   top: 22px; /* justera neråt */
-  right: 7px; /* justera åt höger */
+  right: 8px; /* justera åt höger */
   z-index: 200; /* ovanför menyn */
   /* z-index: 1001; */
   display: none;
@@ -2041,14 +2043,15 @@ ul {
 
   .hamburger {
   display: flex;
+  cursor: pointer;
   flex-direction: column;
+  }
   /* padding-top: 11px;
   margin-left: -10px; */
   /* width: 20px;
   height: 40px; */
   /* gap: 6px; */
-  cursor: pointer;
-}
+
 
   .language-switcher {
     right: 15px;
