@@ -1198,19 +1198,82 @@ ul {
   z-index: 100;
 }
 
+
 .hamburger {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: space-between;
+  width: 34px;
+  height: 26px;
+  position: relative;
+  cursor: pointer;
+  position: absolute;
+  top: 22px; /* justera neråt */
+  right: 7px; /* justera åt höger */
+  z-index: 200; /* ovanför menyn */
+  /* z-index: 1001; */
+  display: none;
+}
+
+.hamburger span {
+  height: 4px;
+  width: 100%;
+  background: white;
+  border-radius: 4px;
+  transition: all 0.4s ease;
+  /* position: absolute; */
+  /* left: 0; */
+}
+
+.hamburger span:nth-child(1) {
+  top: 0;
+}
+.hamburger span:nth-child(2) {
+  top: 10px;
+}
+.hamburger span:nth-child(3) {
+  bottom: 0;
+}
+
+/* Öppnat läge – kryss */
+/* .hamburger.open span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 10px;
+} */
+.hamburger.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+/* .hamburger.open span:nth-child(3) {
+  transform: rotate(-45deg);
+  bottom: 10px;
+} */
+
+/* .hamburger {
+  display: none;
+} */
+
+
+/* .hamburger {
   display: flex;
   flex-direction: column;
   gap: 6px;
   cursor: pointer;
-}
+} */
 
-.burger {
+/* .burger {
   width: 30px;
   height: 3px;
   background-color: black;
   transition: transform 0.3s ease, opacity 0.3s ease;
-}
+} */
 
 @keyframes gradientBG {
   0% { background-position: 0% 50%; }
@@ -1965,7 +2028,7 @@ ul {
     transition: all 0.3s linear;
   }
 
-  .hamburger {
+  /* .hamburger {
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
@@ -1974,7 +2037,18 @@ ul {
     padding-top: 11px;
     margin-left: -10px;
     z-index: 10;
-  }
+  } */
+
+  .hamburger {
+  display: flex;
+  flex-direction: column;
+  /* padding-top: 11px;
+  margin-left: -10px; */
+  /* width: 20px;
+  height: 40px; */
+  /* gap: 6px; */
+  cursor: pointer;
+}
 
   .language-switcher {
     right: 15px;
@@ -2010,8 +2084,8 @@ ul {
   .notfound-container p {
     font-size: 1rem;
   }
-}
 
+}
 
 
 

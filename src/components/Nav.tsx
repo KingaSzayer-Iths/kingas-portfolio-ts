@@ -14,6 +14,7 @@ const Navigation: React.FC = () => {
 
   const closeMenu = (): void => setHamburgerOpen(false)
   const toggleHamburger = (): void => setHamburgerOpen(prev => !prev)
+  
   // const closeMenu = () => setHamburgerOpen(false);
   // const toggleHamburger = () => setHamburgerOpen(!hamburgerOpen)
 
