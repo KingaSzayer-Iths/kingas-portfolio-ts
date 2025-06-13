@@ -65,8 +65,8 @@ function About() {
       <article key={education.id}>
         <h2>{t(education.institutionName)}</h2>
         <h3>{t(education.program)}</h3>
-        {/* <h6>{t('about.edu.start')}: {formatDate(education.startDatum)}</h6>
-        <h6>{t('about.edu.end')}: {formatDate(education.slutDatum)}</h6> */}
+        <h6>{t('about.edu.start')}: {formatDate(education.startDatum)}</h6>
+        <h6>{t('about.edu.end')}: {formatDate(education.slutDatum)}</h6>
       </article>
     ))}
 </section>

@@ -17,8 +17,6 @@ const Hamburger: React.FC<HamburgerProps> = ({ isOpen }) => {
   )
 }
 
-
-
 // const Hamburger: React.FC<HamburgerProps> = ({ isOpen }) => {
 //   return (
 //     <div className="hamburger">
