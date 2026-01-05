@@ -24,6 +24,9 @@ import hobby from './data/hobbys.json'
 import { logDOM } from '@testing-library/react'
 import Hobby from './hobby'
 
+import hel_film_vadermashup from './images/hel_film_vadermashup.png'
+import film_vadermashup from './images/film_vadermashup.png'
+
 
 
   type HobbyType = {
@@ -100,7 +103,45 @@ import Hobby from './hobby'
   
 
 
-  <section className="hobby-list hobby-groups snake-border">
+   <section className="hobby-list hobby-groups snake-border"> 
+
+
+
+
+{/* Filmmashup */}
+{/* const filmmashup: HobbyType = {
+      name: "Filmmashup",
+      shortDescription: t('hobbies.filmmashup.shortDescription'),
+      longDescription: t('hobbies.filmmashup.longDescription'),
+      images: [
+        hel_film_vadermashup,
+        film_vadermashup
+    ],
+      mainImage: hobbysPagePrestanda,
+      github: "https://github.com/KingaSzayer-Iths/portfolio"
+  }
+
+
+  <section className="hobby-list hobby-groups snake-border"> */}
+
+
+<article className="hobby animated-border proj">
+        <div className="icon-container">
+          <img src={react} alt="React icon" className="rotating-image"/>
+          <img width="31px" src={javascript} alt="JavaScript icon" className="rotating-icon"/>
+        </div>
+        <h1>{t('hobbys.filmmashup.title')}</h1>
+          <img src="../images/hel_film_vadermashup.png" alt="Film mashup" className="projects-main-image" />
+          <p>{t('hobbies.filmmashup.longDescription')}</p>
+          {/* <p>{t('hobbies.filmmashup.shortDescription')}</p> */}
+        <div className="project-links">
+          <a href="https://main--filmmashup.netlify.app">{t('projects.links.viewMore')}</a>
+          <a href="https://github.com/KingaSzayer-Iths/filmmashup">GitHub</a>
+        </div>
+    </article>
+
+
+
 
     {/* Dice Game */}
     <article className="hobby animated-border proj">

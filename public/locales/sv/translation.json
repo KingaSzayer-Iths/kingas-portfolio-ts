@@ -197,6 +197,10 @@
         "lighthouse": {
             "shortDescription": "Analys rapport av mina portfoliosidor med höga Lighthouse-resultat i alla kategorier.",
             "longDescription": "Jag använde Google Lighthouse för att utvärdera min portfolio. Resultaten visar mycket god prestanda, tillgänglighet, SEO och kodstandard."
+            },
+        "filmmashup": {
+            "shortDescription": "Detta projekt är en React-baserad API-mashup där användaren kan söka efter filmer och få både filminformation från OMDb och aktuellt väder från ett Weather API baserat på var filmen utspelar sig.",
+            "longDescription": "Detta projekt är en API-mashup som kombinerar filmdata från OMDb med väderinformation från ett Weather API. Användaren kan söka på en filmtitel och får då både information om filmen samt aktuellt väder i landet där filmen utspelar sig. Användargränssnittet och all interaktion är byggd med React för en dynamisk och användarvänlig upplevelse."
             }
     },
     
@@ -217,6 +221,10 @@
         "lighthouse": {
             "title": "Lighthouse-rapport av min portfolio",
             "description": "Analys av mina portfoliosidor med höga resultat i alla Lighthouse-kategorier."
+        },
+        "filmmashup": {
+            "title": "Film- och väder mashup",
+            "description": "Detta projekt är en React-baserad API-mashup där användaren kan söka efter filmer och få både filminformation från OMDb och aktuellt väder från ett Weather API baserat på var filmen utspelar sig."
         }
     },
 

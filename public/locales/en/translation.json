@@ -198,6 +198,10 @@
         "lighthouse": {
             "shortDescription": "Analysis report of my portfolio pages with high Lighthouse scores in all categories.",
             "longDescription": "I used Google Lighthouse to evaluate my portfolio. The results show excellent performance, accessibility, SEO, and coding standards."
+            },
+        "filmmashup": {
+            "shortDescription": "This project is a React-based API mashup where users can search for movies and receive both movie information from OMDb and current weather data from a Weather API based on the film’s setting.",
+            "longDescription": "This project is an API mashup that combines movie data from OMDb with weather information from a Weather API. The user can search for a movie title and receive both details about the movie and the current weather in the country where the movie is set. The user interface and all interactions are built with React to provide a dynamic and user-friendly experience."
             }
     },
 
@@ -217,6 +221,10 @@
         "lighthouse": {
             "title": "Lighthouse Report of My Portfolio",
             "description": "Analysis of my portfolio pages with high Lighthouse scores across all categories."
+        },
+        "filmmashup": {
+            "title": "Movie and Weather Mashup",
+            "description": "This project is a React-based API mashup where users can search for movies and receive both movie information from OMDb and current weather data from a Weather API based on the film’s setting."
         }
     },
 
