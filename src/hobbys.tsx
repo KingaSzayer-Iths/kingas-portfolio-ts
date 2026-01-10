@@ -135,8 +135,8 @@ import film_vadermashup from './images/film_vadermashup.png'
           <p>{t('hobbies.filmmashup.longDescription')}</p>
           {/* <p>{t('hobbies.filmmashup.shortDescription')}</p> */}
         <div className="project-links">
-          <a href="https://main--filmmashup.netlify.app">{t('projects.links.viewMore')}</a>
-          <a href="https://github.com/KingaSzayer-Iths/filmmashup">GitHub</a>
+          <a href="https://filmmashup.netlify.app">{t('projects.links.viewMore')}</a>
+          <a href="https://github.com/KingaSzayer-Iths/inl6_kinga_szayer">GitHub</a>
         </div>
     </article>
 
